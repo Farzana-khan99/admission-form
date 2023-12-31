@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-box {
+    z-index: 1;
+    position: relative;
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 2px solid #00000047;
+}
+.form-box::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.1;
+    height: 100%;
+    background-image: url("../logo-img.jpg");
+}
+.form-head {
+    display: flex;
+    align-items: center;
+}
+.form-head img{
+    width: 130px;
+    object-fit: contain;
+}
+.form-head h1{
+    text-transform: capitalize;
+     font-size: 34px;
+     font-weight: bold;
+    font-family: sans-serif;
+}
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+   text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+.form-box {
+    padding: 4%;   
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    width: 70%;
+}
+.form-group {
+    display: flex;
+}
+
+.form-group  label{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+label{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.form-group input{
+    font-size: 1.2rem;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #000 ;
+}
+.form-group {
+    padding-bottom: 40px;
+}
+
+.checkbox-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+.checkbox-form input{
+ margin-left: 20px;
+}
+.skill-checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-family: sans-serif;
+    color: #e49025;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.course-name {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.list-course input {
+    margin-bottom: 20px;
+}
+.btn {
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background: #e49025;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 40px;
+}
